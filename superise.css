@@ -1,0 +1,38 @@
+body{background: rgb(82, 80, 80);padding: 0;margin: 0; overflow:hidden}
+.header{margin: 0 auto;width: 100%;height: 100%;background-color: #7c7a7a;position: relative;}
+.main{
+	text-align: center;
+	border-radius:20px;
+	width: px;
+	height: px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+  .light{
+      font-size: 30px;
+      color: #fefefe;
+      text-shadow: 0 0 0.5em #16d446, 0 0 0.2em #5c5c5c;
+  } 
+
+  .box{
+	font-family:"微软雅黑";            /*设置字体*/
+	width:600px;                    /*设置元素宽度*/
+	margin:50px auto;                /*设置外边距*/
+	font-size: 36px;                /*设置文字大小*/                
+	overflow:hidden;                /*隐藏溢出部分内容*/
+ }
+
+ .marquee{
+	position:relative;                /*设置相对定位*/
+	-webkit-animation: marquee 5s linear infinite alternate;/*设置动画*/
+ }
+
+ @-webkit-keyframes marquee{        /*创建动画*/
+	 0%{ left:0px; }
+	 100%{ left:200px; }
+ }
+
+
