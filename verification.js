@@ -1,7 +1,7 @@
 $('#login-button').click(function (event) {
     let userName = document.getElementById("userName").value;
     let pwd = document.getElementById("pwd").value;
-    if (userName == "root" && pwd == "root") {
+    if (userName == "wysn" && pwd == "srkl") {
         $('#h').text("欢迎进入！");
         event.preventDefault();
         $('form').fadeOut(500);
